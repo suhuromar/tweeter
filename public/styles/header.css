@@ -1,0 +1,31 @@
+header {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  background-image: url(http://www.transparenttextures.com/patterns/clean-gray-paper.png);
+  background-color: darkcyan;
+}
+
+.img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileImg {
+  margin: auto;
+}
+
+.profileImg img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.name {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
