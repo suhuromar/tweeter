@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
 
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+    
+    <link rel="stylesheet" href="/styles/tweets.css" type="text/css" />
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -33,7 +35,7 @@
       <span class="writeTweet"><strong>Write</strong>  a new tweet</span>
     </nav>
 
-    <header>
+    <header class="header">
       <div class = "img">
           <img class="profileImg" src="/images/profile-hex.png"> 
       </div>
@@ -53,6 +55,79 @@
           <output name="counter" class="counter" for="tweet-text">140</output>
         </form>
       </section>
+
+      <!-- TWEETS -->
+      <!-- first tweet -->
+      <section id="tweet-container">
+        <article class="tweet">
+          <header>
+            <div>
+              <span class="avatar">&#128111</span>
+              <span class="name">Jane Doe</span>
+            </div>
+            <span class="handle">@janedoe</span>
+          </header>
+          <p class="tweetInfo"> Grey's Anatomy is the best tv show eveerrrr!! #BringChristinaBack</p>
+          <footer>
+            <span class="date">10 days ago</span>
+            <span class ="icons"> &#127988 &#128257 &#128153</span>
+          </footer>
+        </article>
+        <!-- second tweet -->
+      </section>
+      <section id="tweet-container">
+        <article class="tweet">
+          <header>
+            <div class="generalInfo">
+              <span class="avatar">&#128114</span>
+              <span class="name">James Doe</span>
+            </div>
+            <span class="handle">@jamesdoe</span>
+          </header>
+          <p class="tweetInfo"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, nam.</p>
+          <footer>
+            <span class="date">10 days ago</span>
+            <span class ="icons"> &#127988 &#128257 &#128153</span>
+          </footer>
+        </article>
+        <!-- third tweet -->
+      </section>
+      <section id="tweet-container">
+        <article class="tweet">
+          <header>
+            <div>
+              <span class="avatar">&#128113</span>
+              <span class="name">Carter M.</span>
+            </div>
+            <span class="handle">@carterrr</span>
+          </header>
+          <p class="tweetInfo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, asperiores?</p>
+          <footer>
+            <span class="date">10 days ago</span>
+            <span class ="icons"> &#127988 &#128257 &#128153</span>
+          </footer>
+        </article>
+        <!-- fourth tweet -->
+      </section>
+      <section id="tweet-container">
+        <article class="tweet">
+          <header>
+            <div>
+              <span class="avatar">&#128115</span>
+              <span class="name">H.M</span>
+            </div>
+            <span class="handle">@hm2</span>
+          </header>
+          <p class="tweetInfo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, velit?</p>
+          <footer>
+            <span class="date">10 days ago</span>
+            <span class ="icons"> &#127988 &#128257 &#128153</span>
+          </footer>
+        </article>
+      </section>
+    
+    
+    
     </main>
   </body>
 </html>
