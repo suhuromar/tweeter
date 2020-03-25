@@ -1,21 +1,24 @@
 form {
   position: relative;
-  border-bottom: 3px solid black;
   font-size: 1.2em;
   margin-top: 5%;
 }
+
 
 button{
   background-color: darkgrey;
   color: black;
   border: 2px solid black;
+  margin-top: 30px;
+  margin-bottom: 60px;
   padding: 3px 10px;
   left: 0;
 }
-button, .counter{
+output, .counter{
   position: absolute;
   top: 150%;
   font-family: "Bungee";
+  top: 100px;  
 }
 
 ::placeholder{
@@ -24,6 +27,7 @@ button, .counter{
 
 .counter{
   right: 0;
+  font-size: 1.1em;
 }
 
 #tweet-text {
@@ -34,4 +38,5 @@ button, .counter{
   resize: none;
   outline: none;
   margin-bottom: -10px;
+  border-bottom: 3px solid black;
 }
