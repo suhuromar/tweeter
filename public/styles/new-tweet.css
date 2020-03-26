@@ -4,7 +4,6 @@ form {
   margin-top: 5%;
 }
 
-
 button{
   background-color: darkgrey;
   color: black;
@@ -14,6 +13,7 @@ button{
   padding: 3px 10px;
   left: 0;
 }
+
 output, .counter{
   position: absolute;
   top: 150%;
@@ -40,3 +40,24 @@ output, .counter{
   margin-bottom: -10px;
   border-bottom: 3px solid black;
 }
+
+.new-tweet {
+  text-align: left;
+}
+
+.invalid {
+  display: inline;
+  color: red
+}
+
+#max, #empty {
+  display: none;
+  width: 70%;
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 14%;
+  border: 2px outset red;
+}
+
