@@ -47,87 +47,20 @@
 
     <!-- Page-specific (main) content here -->
     <main class="container">
-      <section class="new-tweet">
-        <!-- <h2>Compose Tweet</h2> -->
-        <form action="tweets" method="POST">
-          <textarea name="text" id="tweet-text" placeholder="What are you humming about"></textarea>
+      <section id="new-tweet">
+        <p id ="max">Tweet must be less than or equal to 140 characters</p>
+        <p id="empty"> A tweet is required to be posted.</p>
+        <form id= "nTweet" method="POST" action="/tweets/">
+          <textarea name="text" 
+          id="tweet-text" 
+          placeholder="What are you humming about"></textarea>
           <button type="submit">Tweet</button>
           <output name="counter" class="counter" for="tweet-text">140</output>
         </form>
+        <section>
+          <section id = "tweets-container"></section>
+        </section>
       </section>
-
-      <!-- TWEETS -->
-      <!-- first tweet -->
-      <section id="tweet-container">
-        <article class="tweet">
-          <header>
-            <div>
-              <span class="avatar">&#128111</span>
-              <span class="name">Jane Doe</span>
-            </div>
-            <span class="handle">@janedoe</span>
-          </header>
-          <p class="tweetInfo"> Grey's Anatomy is the best tv show eveerrrr!! #BringChristinaBack</p>
-          <footer>
-            <span class="date">10 days ago</span>
-            <span class ="icons"> &#127988 &#128257 &#128153</span>
-          </footer>
-        </article>
-        <!-- second tweet -->
-      </section>
-      <section id="tweet-container">
-        <article class="tweet">
-          <header>
-            <div class="generalInfo">
-              <span class="avatar">&#128114</span>
-              <span class="name">James Doe</span>
-            </div>
-            <span class="handle">@jamesdoe</span>
-          </header>
-          <p class="tweetInfo"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, nam.</p>
-          <footer>
-            <span class="date">10 days ago</span>
-            <span class ="icons"> &#127988 &#128257 &#128153</span>
-          </footer>
-        </article>
-        <!-- third tweet -->
-      </section>
-      <section id="tweet-container">
-        <article class="tweet">
-          <header>
-            <div>
-              <span class="avatar">&#128113</span>
-              <span class="name">Carter M.</span>
-            </div>
-            <span class="handle">@carterrr</span>
-          </header>
-          <p class="tweetInfo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, asperiores?</p>
-          <footer>
-            <span class="date">10 days ago</span>
-            <span class ="icons"> &#127988 &#128257 &#128153</span>
-          </footer>
-        </article>
-        <!-- fourth tweet -->
-      </section>
-      <section id="tweet-container">
-        <article class="tweet">
-          <header>
-            <div>
-              <span class="avatar">&#128115</span>
-              <span class="name">H.M</span>
-            </div>
-            <span class="handle">@hm2</span>
-          </header>
-          <p class="tweetInfo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, velit?</p>
-          <footer>
-            <span class="date">10 days ago</span>
-            <span class ="icons"> &#127988 &#128257 &#128153</span>
-          </footer>
-        </article>
-      </section>
-    
-    
-    
     </main>
   </body>
 </html>
