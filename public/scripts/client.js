@@ -1,5 +1,10 @@
 $(() => {
 
+  $(".toggle").click(function() {
+    $("#nTweet").slideToggle();
+    $("textarea").focus();
+      });
+      
   // our holy grail form .. collects information and submits if correct
   const $form = $("#nTweet");
   $form.submit(function(event) {

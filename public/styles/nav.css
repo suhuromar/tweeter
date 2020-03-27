@@ -17,7 +17,7 @@ nav strong{
 .tweeter {
   position: relative;
   font-size: 50px;
-  top: 0.9em;
+  top: 0.7em;
   padding-left: 40px;
   bottom: 1.5em;
   font-family: "Bungee";
@@ -28,9 +28,33 @@ nav strong{
 .writeTweet{
   font-family: "Source Sans Pro", sans-serif;
   font-size: 30px;
-  margin-top: 0.1em;
+  position: relative;
+  bottom: 0.4em;
   display: flex;
   justify-content: flex-end;
   position: relative;
   right: 1.5em;
+}
+
+.toggle {
+  animation-name: toggle;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; 
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 140px;
+  bottom: 0.3em;
+}
+
+@keyframes toggle {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+.toggle:hover {
+cursor: pointer;
 }
