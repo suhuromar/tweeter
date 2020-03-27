@@ -6,6 +6,10 @@ This repository is the starter code for the project: Students will fork and clon
 
 !["urls-login"](https://github.com/suhuromar/tweeter/blob/master/public/images/gif1.gif?raw=true)
 
+
+!["urls-login](https://github.com/suhuromar/tweeter/blob/master/public/images/Screen%20Shot%202020-03-27%20at%2014.26.20.png?raw=true)
+
+
 ## Getting Started
 
 1. Fork this repository, then clone your fork of this repository.
