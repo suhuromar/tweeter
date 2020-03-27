@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1024px) {
+  .hello {
+    display: flex;
+    align-items: stretch;
+    margin-top: 35px;
+  }
+  .header {
+    background-color: #f4f1ec;
+    background-image: none;
+    /* bottom: 35px; */
+  }
+
+  .name {
+    color: slategray
+  }
+
+  nav{
+    background-color: slategray;
+  }
+
+  #new-tweet {
+    width: 93%;
+  }
+}

@@ -3,17 +3,14 @@
   width: 100%;
   position: relative;
   background-image: url(http://www.transparenttextures.com/patterns/clean-gray-paper.png);
-  background-color: darksalmon;
+  background-color: slategray;
 }
 
-.img{
+.header .img{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.profileImg {
-  margin: auto;
+  padding-top: 30px;
 }
 
 .profileImg img {
