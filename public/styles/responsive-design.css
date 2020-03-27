@@ -1,8 +1,10 @@
-@media only screen and (min-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 800px) {
   .hello {
     display: flex;
     align-items: stretch;
     margin-top: 35px;
+    position: relative;
+    bottom: 20px;
   }
   .header {
     background-color: #f4f1ec;
@@ -10,8 +12,20 @@
     /* bottom: 35px; */
   }
 
+  .tweeter {
+    font-size: 50px;
+  }
+
+  .writeTweet {
+    font-size: 30px;
+  }
+
+  nav{
+    height: 120px;
+  }
+
   .name {
-    color: slategray
+    color: slategray;
   }
 
   nav{
