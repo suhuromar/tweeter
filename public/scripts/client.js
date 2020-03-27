@@ -67,17 +67,17 @@ $(() => {
   // is tweet valid?
   const checkTweetValidity = () => {
     const length = $("#tweet-text").val().length;
-    $("#empty, #max").removeClass("invalid").slideUp(300)
+    $("#empty, #max").removeClass("invalid").slideUp()
     if (length > 140) {
       $("#max")
         .addClass("invalid")
-        .slideDown(500);
+        .slideDown();
       return false;
 
     } else if (length === 0) {
       $("#empty")
         .addClass("invalid")
-        .slideDown(500);
+        .slideDown();
       return false
     }
     else return true
